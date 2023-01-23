@@ -1,0 +1,169 @@
+.moon {
+    width: 4rem;
+    height: auto;
+    z-index: 1;
+    padding-left: 1rem;
+}
+
+a {
+    text-transform: uppercase;
+}
+
+.collapse {
+    text-align: center;
+}
+
+ul li {
+    text-align: center;
+}
+
+#nav-title {
+    background-color: transparent;
+    width: 100%;
+    height: inherit;
+    z-index: 1;
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1rem;
+}
+
+.navbar-dark .navbar-toggler {
+    background-color: grey;
+}
+
+.nav-item {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #181a18;
+}
+  
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #181a18;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.nav-image {
+    margin: 5rem 2rem 3rem 6rem;
+    padding-top: 4rem;
+    max-width: 100%;
+    width: 75%;
+    height: 60vh;
+}
+
+.csd {
+    text-transform: lowercase;
+    color: black;
+}
+
+.csd:hover {
+    text-transform: lowercase;
+    color: black;
+}
+
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+}
+
+.CU-title {
+    padding-top: 1rem;
+    margin: 10% 50% auto 50%;
+    max-width: 100%;
+    width: 100%;
+    align-self: center;
+}
+
+.form-control {
+    margin: 1rem 0;
+}
+
+form {
+    max-width: 100%;
+    width: 100%;
+    margin: auto 50% 10% 50%;
+}
+
+.btn {
+    margin: auto;
+    background-color: transparent;
+    border: 1px solid rgb(98, 226, 98);
+    color: rgb(98, 226, 98);
+}
+
+.btn:hover {
+    background-color: rgb(98, 226, 98);
+}
+
+.CFORM .FINFO {
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-inner {
+    height: 50%;
+}
+
+@media only screen and (max-width: 300px) {
+    .deal {font-size: 2rem;}
+}
+
+@media only screen and (max-width: 576px) {
+    .deal {font-size: 2rem;}
+}
+
+@media only screen and (max-width: 992px) {
+    .deal {font-size: 2rem; align-self: center; max-width: 100%;}
+    .d-block {max-width: 100%; width: 100%; height: 10%; max-height: 300px;}
+    .next {margin-right: 1rem;}
+    .main-section-info {max-width: 100%; font-size: 1rem;}
+    form {max-width: 100%; width: 100%;}
+    .CFORM, .FINFO {max-width: 100%; width: 100%;}
+    .nav-image {margin: 1rem 2rem 1rem 3.8rem; height: 40vh;}
+    h1 {font-size: 2rem; width: 100%;}
+    .navbar-brand {font-size: 1rem; margin-right: 0; padding-right: 0;}
+    .moon {padding-left: 0;}
+    form {margin: 0;}
+    .CU-title{margin: 0}
+}
+
+@media only screen and (max-width: 1200px) {
+    .deal {font-size: 2rem; align-self: center; max-width: 100%;}
+    .d-block {max-width: 100%; width: 100%; height: 10%; max-height: 300px;}
+    .next {margin-right: 1rem;}
+    .main-section-info {max-width: 100%; font-size: 1rem;}
+    form {max-width: 100%; width: 100%;}
+    .CFORM, .FINFO {max-width: 100%; width: 100%;}
+    .nav-image {margin: 1rem 2rem 1.5rem 3.8rem; height: 40vh;}
+    h1 {font-size: 2rem; width: 100%;}
+    .navbar-brand {font-size: 1rem; margin-right: 0; padding-right: 0;}
+    .moon {padding-left: 0;}
+    form{margin: 0;}
+    .CU-title{margin: 0}
+}
